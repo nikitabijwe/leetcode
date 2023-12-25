@@ -10,6 +10,4 @@ class Solution(object):
         for num in nums:
             total+=num
             min_val=min(min_val, total)
-            print(min_val, "min_val")
-            
         return -min_val+1
