@@ -1,3 +1,6 @@
+
+
+        
 class Solution(object):
     
     def dfs(self, grid, i, j):
@@ -26,5 +29,3 @@ class Solution(object):
                     self.dfs(grid, i, j)
                     num_islands+=1
         return num_islands
-        
-        
