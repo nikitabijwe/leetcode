@@ -7,7 +7,7 @@ class Solution:
                 ro = i - 0
                 
                 return nums[i]
-                break
+                
             
             
         return nums[0]
