@@ -3,7 +3,6 @@ class Solution:
         hash={}
         for ele in nums:
             if ele in hash:
-                hash[ele]+=1
                 return True
             else:
                 hash[ele]=1
