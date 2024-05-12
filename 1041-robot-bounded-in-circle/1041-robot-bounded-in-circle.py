@@ -1,20 +1,6 @@
 class Solution:
     def isRobotBounded(self, instructions: str) -> bool:
-        # current = (0, 0)
-        # curr_direction = N
-        # for i in instructions:
-        #     if i == G:
-        #         current[1]+=1
-        #     elif:
-        #         i == L:
-        #             direction = curr_direction +90
-        #     else:
-        #         i == R:
-        #             direction = curr_direction - 90
-        # if current = (0, 0):
-        #     return true:
-        # return false
-        
+  
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
         x, y = 0, 0  # Initial position
         dx, dy = 0, 1  # Initial direction (north)
